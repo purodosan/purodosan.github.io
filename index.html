@@ -94,13 +94,13 @@
         
         <!-- START SCREEN -->
         <div id="screen-start" class="text-center space-y-8">
-            <h1 class="heading-font text-7xl font-black tracking-tighter leading-none mb-4 crt-glow italic">MEDIA <br> CONTROL <br> CENTER</h1>
+            <h1 class="heading-font text-7xl font-black tracking-tighter leading-none mb-4 crt-glow italic">MEDIA <br> CONTROL <br> CENTRE</h1>
             <p class="text-zinc-500 text-lg uppercase tracking-widest max-w-2xl mx-auto">
-                System online. Audio initialized. <br> 
+                System online. Audio initialised. <br> 
                 Prepare to engage in 4 rounds of media ethics.
             </p>
             <button onclick="startGame()" class="px-12 py-4 btn-cmd heading-font text-2xl uppercase tracking-widest text-red-500 font-bold">
-                Enter Command Center
+                Enter Command Centre
             </button>
         </div>
 
@@ -193,14 +193,14 @@
                 role: "THE JOURNALIST",
                 scenario: "A video shows civilians injured in Gaza after an airstrike. Source is local. It cannot yet be independently verified.",
                 choices: [
-                    { id: 'A', text: "Publish now with disclaimer", consequence: "SPEED PRIORITIZED: Traffic spikes, but your credibility is now linked to unverified data." },
-                    { id: 'B', text: "Wait until full verification", consequence: "ACCURACY PRIORITIZED: You have your integrity, but a competitor got 1M views before you spoke." }
+                    { id: 'A', text: "Publish now with disclaimer", consequence: "SPEED PRIORITISED: Traffic spikes, but your credibility is now linked to unverified data." },
+                    { id: 'B', text: "Wait until full verification", consequence: "ACCURACY PRIORITISED: You have your integrity, but a competitor got 1M views before you spoke." }
                 ],
                 analysis: "Publishing prioritises speed and agenda-setting. Waiting prioritises credibility and gatekeeping. Journalism cannot maximise both at the same time."
             },
             {
                 role: "THE PLATFORM",
-                surprise: { text: "Reverse Card! Pass the object back to whoever gave it to you!", icon: "🔄" },
+                surprise: { text: "Reverse Card! Pass the ball back to whoever gave it to you!", icon: "🔄" },
                 scenario: "The video is now viral. Millions are sharing. Emotions are high. Verification is still pending.",
                 choices: [
                     { id: 'A', text: "Let it circulate freely", consequence: "VISIBILITY MAXIMIZED: Engagement is through the roof, but outrage is fueling real-world tension." },
@@ -211,7 +211,7 @@
             },
             {
                 role: "THE GOVERNMENT",
-                surprise: { text: "+2 Card! Give the object to the person sitting 2 seats away!", icon: "🚀" },
+                surprise: { text: "+2 Card! Give the ball to the person sitting 2 seats away!", icon: "🚀" },
                 scenario: "International coverage is turning negative. Public opinion abroad is shifting against you.",
                 choices: [
                     { id: 'A', text: "Issue statement immediately", consequence: "FRAME CONTROL: You occupy the media space, but facts may contradict you later." },
@@ -226,7 +226,7 @@
                 choices: [
                     { id: 'A', text: "Share emotional content", consequence: "AMPLIFIED: You shared the 'feeling', but possibly helped spread a partial truth." },
                     { id: 'B', text: "Share the article", consequence: "GHOSTED: The truth is deep, but the algorithm buried your share with 0 likes." },
-                    { id: 'C', text: "Stay silent", consequence: "NEUTRALIZED: You didn't spread lies, but you allowed the loudest voices to dominate." }
+                    { id: 'C', text: "Stay silent", consequence: "NEUTRALISED: You didn't spread lies, but you allowed the loudest voices to dominate." }
                 ],
                 analysis: "Audience behavior determines what survives in the media ecosystem. Attention is a form of power."
             }
