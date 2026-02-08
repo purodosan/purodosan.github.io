@@ -98,6 +98,7 @@
             <p class="text-zinc-500 text-lg uppercase tracking-widest max-w-2xl mx-auto">
                 System online. Audio initialised. <br> 
                 Prepare to engage in 4 rounds of media ethics.
+                Ready? Get set. Decide!
             </p>
             <button onclick="startGame()" class="px-12 py-4 btn-cmd heading-font text-2xl uppercase tracking-widest text-red-500 font-bold">
                 Enter Command Centre
@@ -108,7 +109,7 @@
         <div id="screen-transition" class="hidden text-center space-y-6">
             <h2 class="heading-font text-2xl text-zinc-500 uppercase tracking-[0.3em]">Next Deployment</h2>
             <div id="transition-timer" class="heading-font text-[18rem] leading-none text-white font-black italic">5</div>
-            <div class="bg-red-600 text-white px-8 py-2 heading-font text-xl animate-pulse tracking-widest">PASS THE OBJECT</div>
+            <div class="bg-red-600 text-white px-8 py-2 heading-font text-xl animate-pulse tracking-widest">PASS THE BALL</div>
             <div class="flex justify-center gap-4 mt-8">
                 <button onclick="manualPrev()" class="nav-btn">Back</button>
                 <button onclick="manualNext()" class="nav-btn">Skip</button>
@@ -211,7 +212,7 @@
             },
             {
                 role: "THE GOVERNMENT",
-                surprise: { text: "+2 Card! Give the ball to the person sitting 2 seats away!", icon: "🚀" },
+                surprise: { text: "+2 Card! Give the ball to the person sitting 2 seats away!", icon: "✚2️⃣ },
                 scenario: "International coverage is turning negative. Public opinion abroad is shifting against you.",
                 choices: [
                     { id: 'A', text: "Issue statement immediately", consequence: "FRAME CONTROL: You occupy the media space, but facts may contradict you later." },
